@@ -11,9 +11,8 @@ Quick setup
 
 In here, you specify the parameters needed to connect to your spotify account using the Spotify API:
 
-``client_id = "[ADD YOUR SPOTIFY CLIENT ID HERE]"    
-client_secret = "[ADD YOUR SPOTIFY CLIENT SECRET HERE]"
-``
+`client_id = "[ADD YOUR SPOTIFY CLIENT ID HERE]"   ` 
+`client_secret = "[ADD YOUR SPOTIFY CLIENT SECRET HERE]"`
 
 Steps :
 1. You need the Spotify developer dashboard to obtain a client id/secret. You can access it here: https://developer.spotify.com/dashboard/login. Next, create an app to obtain a client_id and a client_secret.
