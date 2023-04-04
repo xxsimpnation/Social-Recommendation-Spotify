@@ -10,18 +10,18 @@ the script is set up to be a complete end-to-end tool for organizing your music:
 Quick setup
 In here, you specify the parameters needed to connect to your spotify account using the Spotify API:
 
-`
+``
 client_id = "[ADD YOUR SPOTIFY CLIENT ID HERE]"    
 client_secret = "[ADD YOUR SPOTIFY CLIENT SECRET HERE]"
-`
+``
 
 Steps :
 1. You need the Spotify developer dashboard to obtain a client id/secret. You can access it here: https://developer.spotify.com/dashboard/login. Next, create an app to obtain a client_id and a client_secret.
 2. Your public playlist_uri can be found using the spotify application. Right click a playlist, select 'Share' and click 'Copy Spotify URI'. Your URI will have the following format: https://open.spotify.com/playlist/XXXXXXXXXXXXXXXXXX
 3. Set up your Neo4j connection in
-`
+```
 neo4j_url = "bolt://localhost:7687"
 neo4j_username = "neo4j"
 neo4j_password = "[add neo4j password]"
-`
+```
 5. Install python dependencies
