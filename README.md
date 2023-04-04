@@ -8,10 +8,10 @@ the script is set up to be a complete end-to-end tool for organizing your music:
 2. Make dataset and list of recommendation
 
 Quick setup
+
 In here, you specify the parameters needed to connect to your spotify account using the Spotify API:
 
-``
-client_id = "[ADD YOUR SPOTIFY CLIENT ID HERE]"    
+``client_id = "[ADD YOUR SPOTIFY CLIENT ID HERE]"    
 client_secret = "[ADD YOUR SPOTIFY CLIENT SECRET HERE]"
 ``
 
@@ -24,4 +24,4 @@ neo4j_url = "bolt://localhost:7687"
 neo4j_username = "neo4j"
 neo4j_password = "[add neo4j password]"
 ```
-5. Install python dependencies
+4. Install python dependencies
